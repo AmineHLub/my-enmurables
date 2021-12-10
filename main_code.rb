@@ -1,4 +1,4 @@
-require_relative './MyEnumerable'
+require_relative './my_enumerable'
 
 class MyList
   include MyEnumerable
@@ -7,9 +7,7 @@ class MyList
   end
 
   def each
-    for i in 0..@list.length - 1
-      yield @list[i]
-    end
+    (0...@list.length).each { |i| yield @list[i] }
   end
 end
 
