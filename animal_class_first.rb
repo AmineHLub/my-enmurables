@@ -58,6 +58,4 @@ class Animal
       "www"
     end
   end
-
-  
 end

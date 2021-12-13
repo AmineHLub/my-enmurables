@@ -11,6 +11,7 @@ class Animal
   attr_reader :type
   attr_reader :number_of_legs
   attr_accessor :name
+
   # End of encapsulation
 
   # Abstraction
